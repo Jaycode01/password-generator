@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Generator | Jaycode</title>
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <div id="passwordBox">
+   <p id="passwordResult">***********</p>
+   <input type="number" id="passwordLength" min="6" value="6" max="14">
+</div>
+<div class="selectionBox">
+    <div>
+    <input type="checkbox" name="" id="upperCase">
+    <label for="upperCase">ABC</label>
+</div>
+<div>
+    <input type="checkbox" name="" id="lowerCase">
+    <label for="lowerCase">abc</label>
+</div>
+<div>
+    <input type="checkbox" name="" id="number">
+    <label for="number">123</label>
+</div>
+<div>
+    <input type="checkbox" name="" id="symbols">
+    <label for="symbols">~!@</label>
+</div>
+</div><br>
+
+<div id="buttonContainer">
+<button type="button" onclick="result()">Generate Password</button>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

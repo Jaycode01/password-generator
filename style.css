@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    line-height:40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 50px;
+}
+
+#passwordBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    margin: auto;
+}
+
+#passwordResult{
+    background:  hsl(0, 6%, 88%);
+    padding: 0px 15px;
+    border-radius: 5px;
+    width: 170px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#passwordLength{
+    width: 50px;
+    text-align: center;
+    font-family: inherit;
+    border: 2px solid hsl(0, 1%, 45%);
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.selectionBox{
+    width: 35%;
+    text-align: center;
+    font-size: 1.1em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttonContainer{
+    width: 150px;
+    margin: auto;
+}
+
+button{
+    padding: 15px ;
+    border: 0;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: rgba(17, 188, 240, 0.664);
+}
